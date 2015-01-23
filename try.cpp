@@ -14,7 +14,9 @@ int compare( const void *aa, const void  *bb)
 }
 int main() 
 {
+	vector<int> v1[10];
+	v1.clear();
  	const char *s1="abcd e",*s2="abcd a";
- 	cout<<"\n comparing "<<strcmp(s1,s2)<<"\n";
+ 	cout<<"\n comparing "<<INT_MAX<<"\n";
     return 0;
    }
