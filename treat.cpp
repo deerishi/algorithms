@@ -63,14 +63,14 @@ void  get_inp()
 int get_min(int treat,int start,int end,int age)
 {
 	int res,temp1,temp2;
-	cout<<"\n\n\t treat "<<treats[treat]<<" start= "<<start<<" end ="<<end<<" dp[treat][age]"<<dp[treat][age]<<"\n";
-	if(dp[treat][age]!=-1)
-	return dp[treat][age];
+	cout<<"\n\n\t treat "<<treats[treat]<<" start= "<<start<<" end ="<<end<<" dp[start][end]"<<dp[start][end]<<"\n";
+	if(dp[start][end]!=-1)
+	return dp[start][end];
 	
 	if(start>end)
 	{
 		cout<<"treat= "<<treats[treat]<<" start= "<<start<<" and end= "<<end<<" returning "<<treats[treat]*age<<"\n";
-		dp[treat][age]=treats[treat]*age;
+		dp[start][end]=treats[treat]*age;
 		return treats[treat]*age;
 	}
 	else
@@ -78,8 +78,8 @@ int get_min(int treat,int start,int end,int age)
 		temp1=get_min(start,start+1,end,age+1);
 		temp2=get_min(end,start,end-1,age+1);
 		res= max(temp1,temp2);
-		dp[treat][age]=res+ treats[treat]*age;
-		cout<<"2)treat= "<<treats[treat]<<" start= "<<start<<" and end= "<<end<<" returning "<< dp[treat][age]<<"\n";
+		dp[start][end]=res+ treats[treat]*age;
+		cout<<"2)treat= "<<treats[treat]<<" start= "<<start<<" and end= "<<end<<" returning "<< dp[start][end]<<"\n";
 		return res+ treats[treat]*age;
 	}
 }
