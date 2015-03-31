@@ -42,156 +42,38 @@ void printn(int n)
 		putc_unlocked(*ptr++,stdout);
 	}
 }
-
-class node
+int dp[10][10],keys[3]={10,12,20},freq[3]={34, 8, 50};
+int find_min_cost(int start,int end,int level)
 {
-	public:
-	int data;
-	node *left,*right;
-	
-		void add(int val);
-		void traverse(node *root);
-		void convert(node* root);
-		void traverse2(node* root);
-}*root=NULL;
-
-void node::traverse2(node* root)
-{
-	queue<node*> q1;
-	stack<node*> s1;
-	q1.push(root);
-	node* cur;
-	int i=0;
-	cout<<"\nin func cur is "<<root->data<<"\n";
-	while(!q1.empty() or !s1.empty())
-	{
-		if(!q1.empty() and q1.front()!=NULL)
-		{
-			cur=q1.front();
-			cout<<"\nin func2 cur is "<<cur->data<<" and i is "<<i<<"\n";
-		}
-		else if(!s1.empty() and s1.top()!=NULL)
-		cur=s1.top();
-		i++;
-		while(cur!=NULL)
-		{
-			printn(cur->data);
-			if(cur->right!=NULL) s1.push(cur->right);
-			cur=cur->left;
-			putc_unlocked(' ',stdout);
-		}
-		q1.pop();
-		if(!s1.empty() and s1.top()!=NULL)
-		{
-			cur=s1.top();
-			s1.pop();
-			printn(cur->data);
-			putc_unlocked(' ',stdout);
-			if(cur->left!=NULL)
-			{
-				q1.push(cur->left);
-			}
-		}
-	}
-	
-}	
-
-void node::add(int val)
-{
-	queue<node*> q1;
-	q1.push(root);
-	node *cur;
-	while(!q1.empty())
-	{
-		cur=q1.front();
-		q1.pop();
-		if(cur->left==NULL)
-		{
-			cout<<"adding left\n";
-			cur->left= new node();
-			cur->left->data=val;
-			cur->left->left=NULL;
-			cur->left->right=NULL;
-			return;
-		}
-		else if(cur->right==NULL)
-		{
-			cout<<"adding right\n";
-			cur->right=new node();
-			cur->right->data=val;
-			cur->right->left=NULL;
-			cur->right->right=NULL;
-			return;
-		}
-		else
-		{
-			q1.push(cur->left);
-			q1.push(cur->right);
-		}
-	}
-}
-void node:: traverse(node *root)
-{
-	if(root==NULL) return;
-	
-	printn(root->data);
-	putc_unlocked(' ',stdout);
-	traverse(root->left);
-	traverse(root->right);
-}
-void node:: convert(node *root)
-{
-	node *temp;
-	if(root->left!=NULL and root->right!=NULL)
-	{
-		temp=root->left;
-		root->left=root->right;
-		root->right=temp;
-	}
-	else if(root->left==NULL and root->right!=NULL)
-	{
-		root->left=root->right;
-		root->right=NULL;
-	}
-	else if(root->left!=NULL and root->right==NULL)
-	{
-		root->right=root->left;
-		root->left=NULL;
-	}
+	cout<<" start is "<<start<<"and end is "<<end <<"and dp is "<<dp[start][end]<<"\n";
+	if(start>end) return 0;
+	else if (start==end) return level*freq[start];
+	else if(dp[start][end]!=-1){cout<<"returning "<<dp[start][end]<<"\n"; return dp[start][end];}
 	else
 	{
-		return;
+		int i,r,j,cost,min=INT_MAX;
+		for(r=start;r<=end;r++)
+		{
+			cost=level*freq[r] + find_min_cost(start,r-1,level+1) + find_min_cost(r+1,end,level+1);
+			if(cost<min) min=cost;
+		}
+		if(start>=0 and end>=0) dp[start][end]=min;
+		return min;
 	}
 }
-			
 	
+
 int main()
 {
-	int n;
 	
-	while(1)
+	int i,j;
+	for(i=0;i<=3;i++)
 	{
-		n=getInt();
-		if(n==-1) break;
-		if(root==NULL)
-		{
-			root=new node();
-			root->data=n;
-			root->left=NULL;
-			root->right=NULL;
-		}
-		else	
-		root->add(n);
+		for(j=0;j<=3;j++)
+		dp[i][j]=-1;
 	}
-	cout<<"\n now traversing\n";
-	root->traverse(root);
-	root->convert(root);
-	//cout<<"\n the mirror image is \n";
-	//root->traverse(root);
-	cout<<"\n now the iterative preorder traversal is\n";
-	cout<<"\n cur is "<<root->data<<"\n";
-	root->traverse2(root);
-	cout<<"\n"; 
+	int res=find_min_cost(0,2,1);
+	cout<<"\n the min cost is "<<res<<"\n";
 	return 0;
 }
 		

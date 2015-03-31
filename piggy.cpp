@@ -4,8 +4,7 @@ char temp[1<<10],ch;
 #define blank putc_unlocked('\n',stdout)
 class Piggy
 {
-	int E,F,N,weight[501][1000],data[501][2],min1;
-	vector<int> v1[501];
+	int E,F,N,data[501][2],min1,weight[10010];
 	public:
 	int run_modified_knapsack();
 	friend int getInt();
@@ -59,67 +58,45 @@ int Piggy::run_modified_knapsack()
 	E=getInt();
 	F=getInt();
 	N=getInt();
-	//scanf("%d",&E);
-	//scanf("%d",&F);
-	//scanf("%d",&N);
-	int i,j;
+	int i,j,min_weight=INT_MAX,temp1,temp2,w;
 	for(i=1;i<=N;i++)
 	{
 		data[i][0]=getInt();// P ,value of coin
 		data[i][1]=getInt(); // W, weight of coin
-	}
-	for(i=0;i<=N;i++) v1[i].clear(); 
-	for(i=0;i<=(F-E);i++)
-	v1[0].push_back(INT_MAX);
-	
-	for(i=1;i<=N;i++)
-	v1[i].push_back(INT_MAX);
-	vector<int>::iterator it1=v1[0].begin(),it2=v1[0].begin(),it3=it2=v1[0].begin();
-	min1=INT_MAX;
-	for(i=1;i<=N;i++)
-	{
-		//cout<<"data "<<i<<" is "<<data[i][1]<<"\n";
-		for(j=1;j<=(F-E);j++)
+		if(data[i][1]<min_weight)
 		{
-			if(data[i][1]<=j)
+			min_weight=data[i][1];
+		}
+	}
+	for(i=0;i<=min_weight;i++)
+	weight[i]=INT_MAX;
+	for(i=min_weight;i<=(F-E);i++)
+	{
+		temp1=INT_MAX;
+		temp2=INT_MAX;
+		for(j=1;j<=N;j++)
+		{
+			w=data[j][1];
+			if(i>=w)
 			{
-				it1=v1[i-1].begin() +j;
-				it2=v1[i-1].begin()+j%data[i][1];
-				//cout<<"it1 = "<<*it1<<" it2 is "<<*it2<<"\n";
-				if(j%data[i][1]==0 and (data[i][0]*(j/data[i][1]))<*it1)
+				if(weight[i-w]!=INT_MAX or i==w) 
 				{
-					v1[i].push_back(data[i][0]*(j/data[i][1]));
-				}
-				else if(j%data[i][1]!=0 and *it2!=INT_MAX and (*it2 + (data[i][0]*(j/data[i][1])))<*it1)
-				{
-					v1[i].push_back((data[i][0]*(j/data[i][1]))+*it2);
-				}
-				else
-				{
-					v1[i].push_back(*it1);
+					if(i==w) temp2=data[j][0];
+					else temp2=data[j][0] + weight[i-w];
 				}
 			}
-			else
-			{
-				v1[i].push_back(*it1);
-			}
+			if(temp1>temp2) temp1=temp2;
 		}
-		it3=v1[i].begin()+F-E;
-		if(*it3<min1) min1=*it3;
+		if(temp1!=INT_MAX) weight[i]=temp1;
+		else weight[i]=INT_MAX;
+		
+		//cout<<"i= "<<i<<" and weight[i]= "<<weight[i]<<"\n";
+		
 	}
-	
-	/*for(i=0;i<=N;i++)
-	{
-		for(j=0;j<=(F-E);j++)
-		{
-			it3=v1[i].begin()+j;
-			if(*it3==INT_MAX)  cout<<"N ";
-			else cout<<*it3<<" ";
-		}
-		cout<<"\n";
-	}*/
-	return min1;
+	return weight[F-E];
 }
+	
+			
 					
 int main()
 {
@@ -137,3 +114,4 @@ int main()
 }
 			
 		
+
