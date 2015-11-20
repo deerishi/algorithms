@@ -1,1 +1,2 @@
-extern int p;
+ int p;
+

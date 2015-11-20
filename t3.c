@@ -3,10 +3,11 @@
 
 
 
-static int main() 
+ int main() 
 {
     // your code goes here
-	p=2;
-	printf("hello p=%d\n",p);
+	p=4;
+
+	printf("p=%d\n",p);
     return 0;
     }
