@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 3
 6 6 
 1 2 
@@ -13,3 +14,14 @@
 3 2 
 1 2 
 3 1 
+=======
+2
+na
+banananobano
+6
+foobar
+foo
+9
+foobarfoo
+barfoobarfoobarfoobarfoobarfoo
+>>>>>>> 779124e565a5cc81494622167da67d5f8b8c49a4
