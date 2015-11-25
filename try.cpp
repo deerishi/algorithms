@@ -6,7 +6,12 @@ int main()
 	//char arr[20]="hello world";
 	int i;
 
-	cout<<"\n the array is "<<INT_MIN<<"\n";
+	int arr[10];
+	for(i=0;i<10;i++)
+	{
+		arr[1]+=i;
+	}
+	cout<<"\n arr[1] is "<<arr[1];
 
     return 0;
 }
