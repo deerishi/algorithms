@@ -50,7 +50,7 @@ void findIntersections()
 }
 int main()
 {
-    int n1,n2,i,j;
+    int n1,n2,i,j,p1,p2,sum1,sum2;
     n1=getInt();
     unordered_map<int,int> m1;
     while(n1!=0)
@@ -60,6 +60,7 @@ int main()
         for(i=0;i<n1;i++)
         {
             path1[i]=getInt();
+            m1[path[i]]=1;
         }   
         n2=getInt();
         len2=n2;
@@ -67,7 +68,23 @@ int main()
         {
             path2[i]=getInt();
         }
-        findIntersections();
-        
+        j=0;
+        for(i=0;i<len2;i++)
+        {
+            if(m1.count[path2[i]]>0)
+            {
+                intersections[j++]=path2[i];
+            }
+        }
+        leni=j;
+        p1=0;p2=0;
+        for(i=0;i<leni;i++)
+        {
+            sum1=0;
+            while(p1<len1)
+            {
+                sum1=
+            }
+        }        
     }
 }
