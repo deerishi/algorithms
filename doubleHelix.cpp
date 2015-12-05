@@ -44,10 +44,7 @@ void printn(int n)
     }
 }
 int intersections[10001],path1[10001],path2[10002],len1,len2,leni;
-void findIntersections()
-{
-    while()
-}
+
 int main()
 {
     int n1,n2,i,j,p1,p2,sum1,sum2;
@@ -56,11 +53,11 @@ int main()
     while(n1!=0)
     {
         len1=n1;
-        m1.clear()
+        m1.clear();
         for(i=0;i<n1;i++)
         {
             path1[i]=getInt();
-            m1[path[i]]=1;
+            m1[path1[i]]=1;
         }   
         n2=getInt();
         len2=n2;
@@ -71,20 +68,43 @@ int main()
         j=0;
         for(i=0;i<len2;i++)
         {
-            if(m1.count[path2[i]]>0)
+            if(m1.count(path2[i])>0)
             {
                 intersections[j++]=path2[i];
             }
         }
         leni=j;
-        p1=0;p2=0;
+        p1=0;p2=0;long long int res=0;
         for(i=0;i<leni;i++)
         {
             sum1=0;
-            while(p1<len1)
+            while(p1<len1 and path1[p1]!=intersections[i])
             {
-                sum1=
+                sum1+=path1[p1];
+                p1++;
             }
-        }        
+            sum2=0;
+            while(p2<len2 and path2[p2]!=intersections[i])
+            {
+                sum2+=path2[p2];
+                p2++;
+            }
+            res+=max(sum1,sum2);
+        }    
+        sum1=0;
+         while(p1<len1 )
+            {
+                sum1+=path1[p1];
+                p1++;
+            }
+            sum2=0;
+            while(p2<len2)
+            {
+                sum2+=path2[p2];
+                p2++;
+            }
+            res+=max(sum1,sum2);
+        printf("%lld \n",res); 
+        n1=getInt();   
     }
 }
