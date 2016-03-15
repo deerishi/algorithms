@@ -1,12 +1,17 @@
 #include<stdio.h>
-#include "f1.h"
 
 
 
-static int main() 
+
+ int main() 
 {
     // your code goes here
-	p=2;
-	printf("hello p=%d\n",p);
+	float i=1.0,sum=0;
+while (++i < 3.0)
+{
+printf("\n i= %f\n",i);
+sum+=i;
+}
+
     return 0;
     }

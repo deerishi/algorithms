@@ -1,39 +1,27 @@
 #include "bits/stdc++.h"
-using namespace std;
 
+
+using namespace std;
+/*bool compare(const void *aa, const void  *bb)
+{
+  
+    return a[0]<b[0];
+}*/
 int main()
 {
-	char a1[4]={'N','S','E','W'};
-	int i,j;
-	for(i=0;i<4;i++)
+	unordered_map<int,set<int> > m1;
+	
+	
+	set<int> s1;
+	s1.insert(12);
+	s1.insert(13);
+	m1[2]=s1;
+	set<int>:: iterator it;
+	it=m1[2].begin();
+	for(it=m1[2].begin();it!=m1[2].end();it++)
 	{
-		for(j=0;j<4;j++)
-		{
-			if(i==j)
-			{
-				continue;
-			}
-			else
-			{
-				cout<<a1[i]<<"2"<<a1[j]<<"="<<"sem_create(\""<<a1[i]<<"2"<<a1[j]<<"\",2);\n";
-			}
-		}
+	    cout<<*it<<" ";
 	}
-	cout<<"\n\n";
-	for(i=0;i<4;i++)
-	{
-		for(j=0;j<4;j++)
-		{
-			if(i==j)
-			{
-				continue;
-			}
-			else
-			{
-				cout<<"KASSERT("<<a1[i]<<"2"<<a1[j]<<" !=NULL);\n";
-				cout<<"sem_destroy("<<a1[i]<<"2"<<a1[j]<<");\n";
-			}
-		}
-	}
+	cout<<"\n";
 	return 0;
 }
