@@ -185,16 +185,18 @@ int main()
     {
         N=getInt();
 
-        for(i=1;i<=N;i++)
+        for(i=1;i<N;i++)
         {
-            M=getInt();
-            numberOfChildren[i]=M;
-            for(j=0;j<M;j++)
+        
+            x=getInt();
+            y=getInt();
+            if(x>y)
             {
-               
-                //arr[j][i]=1;
-                nodesNChildNodes[i].insert(getInt()); //this stores the children of a node
+                swap(x,y);
             }
+            nodesNChildNodes[x].insert(y);
+            
+            
             //Now we have made the adjacency matrix
             
             //Steps to do the preprocessing for reducing the LCA Problem to RMQ
