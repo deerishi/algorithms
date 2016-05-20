@@ -13,7 +13,7 @@ int getInt()
     int sign=1,num=0;
     if(ch=='-')
     {
-        sign=-1;
+        sign=-1;ch=getc_unlocked(stdin);
     }
     while(isdigit(ch))
     {
