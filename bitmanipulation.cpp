@@ -86,6 +86,10 @@ int main()
                     while(player>0)
                     {
                         //here we iterate over all the possible players in the subset
+       +
+       
+       
+       
                         cout<<"player is "<<player<<" and player&1 is "<<(player&1)<<"arr["<<index<<"]["<<i<<"] is "<<arr[index][i]<<"\n";
                         if((player&1==1) and arr[index][i] < dp[i][j] and arr[index][i]!=0)
                         {
