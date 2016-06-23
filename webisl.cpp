@@ -59,20 +59,24 @@ void dfsPass1(int page)
 {
     vector<int>::iterator it;
     int i,j;
+    cout<<" in pass 1 for page "<<page<<"\n";
     visited1[page]=true;
     for(it=pages[page].begin();it!=pages[page].end();it++)
     {
-        if(visited1[i]==true)
+        if(visited1[*it]==true)
         {
             continue;   
         }
+        cout<<"calling pass1 for "<<*it<<"\n";
         dfsPass1(*it);
     }
+    cout<<"pushing on stack "<<page<<"\n";
     Pass1.push(page);
 }
 
 void dfsPass2(int page)
 {
+    cout<<" Processing page in pass2 "<<page<<"\n";
     if(visited2[page]==true)
     {
         return;
@@ -80,7 +84,7 @@ void dfsPass2(int page)
     visited2[page]=true;
     listOfVerticesProcessed.insert(page);
     vector<int>::iterator it;
-    ForIter(it,pagesReversed)
+    ForIter(it,pagesReversed[page])
     {
         dfsPass2(*it);
     }
@@ -143,7 +147,7 @@ int main()
     {
         x=getInt();
         y=getInt();
-        pages[x].push_back(y)
+        pages[x].push_back(y);
     }
     for(i=0;i<N;i++)
     {
