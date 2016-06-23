@@ -1,6 +1,8 @@
 #include "bits/stdc++.h"
 using namespace std;
 #define blank putc_unlocked('\n',stdout);
+#define ForIter(it,name) for(it=name.begin();it!=name.end();it++)
+
 char current[1<<10],ch;
 //This is lexicographical topological sort
 int getInt()  
@@ -49,6 +51,9 @@ vector<int> pages[100005],pagesReversed[100005];
 int N,M;
 stack<int> Pass1;
 bool visited1[100005],visited2[100005];
+set<int> listOfVerticesProcessed;
+int result[100005];
+
 
 void dfsPass1(int page)
 {
@@ -64,6 +69,22 @@ void dfsPass1(int page)
         dfsPass1(*it);
     }
     Pass1.push(page);
+}
+
+void dfsPass2(int page)
+{
+    if(visited2[page]==true)
+    {
+        return;
+    }
+    visited2[page]=true;
+    listOfVerticesProcessed.insert(page);
+    vector<int>::iterator it;
+    ForIter(it,pagesReversed)
+    {
+        dfsPass2(*it);
+    }
+
 }
 
 void findConnectedComponents()
@@ -89,7 +110,28 @@ void findConnectedComponents()
         }
     }
     //graph reversed
-    //Now traverse the graph in the 
+    //Now traverse the graph in the order you have kept the vertices in the stack
+    set<int>::iterator it2;
+    int min1;
+    while(!Pass1.empty())
+    {
+        if(visited2[Pass1.top()]==true)
+        {
+            Pass1.pop();
+            continue;
+        }
+        listOfVerticesProcessed.clear();
+        dfsPass2(Pass1.top());
+        
+        min1=*(listOfVerticesProcessed.begin());
+        cout<<"for page "<<Pass1.top()<<" min1 is "<<min1<<"\n";
+        ForIter(it2,listOfVerticesProcessed)
+        {
+            result[*it2]=min1;
+        }
+        
+        Pass1.pop();
+    }
 }
 
 int main()
@@ -108,6 +150,11 @@ int main()
        visited1[i]=false;
        visited2[i]=false; 
     }
-    
+    findConnectedComponents();
+    for(i=0;i<N;i++)
+    {
+        printn(result[i]);
+        blank;
+    }
     return 0;
 }
