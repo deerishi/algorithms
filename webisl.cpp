@@ -8,13 +8,13 @@ char current[1<<10],ch;
 int getInt()  
 { 
 	ch=getc_unlocked(stdin); 
-	//cout<<" in the beginning with ch as "<<ch; 
-	while(ch<'-'){/*cout<<" in while 1 with ch as "<<ch;*/ ch=getc_unlocked(stdin);} 
+	////cout<<" in the beginning with ch as "<<ch; 
+	while(ch<'-'){/*//cout<<" in while 1 with ch as "<<ch;*/ ch=getc_unlocked(stdin);} 
 	int sign=1,n1=0; 
 	if(ch=='-') sign=-1,ch=getc_unlocked(stdin); 
 	while(ch>'-' ) 
 	{ 
-		//cout<<" in while 2 with ch as "<<ch; 
+		////cout<<" in while 2 with ch as "<<ch; 
 		n1=n1*10 +ch-'0'; 
 		ch=getc_unlocked(stdin); 
 	} 
@@ -59,7 +59,7 @@ void dfsPass1(int page)
 {
     vector<int>::iterator it;
     int i,j;
-    cout<<" in pass 1 for page "<<page<<"\n";
+    //cout<<" in pass 1 for page "<<page<<"\n";
     visited1[page]=true;
     for(it=pages[page].begin();it!=pages[page].end();it++)
     {
@@ -67,16 +67,16 @@ void dfsPass1(int page)
         {
             continue;   
         }
-        cout<<"calling pass1 for "<<*it<<"\n";
+        //cout<<"calling pass1 for "<<*it<<"\n";
         dfsPass1(*it);
     }
-    cout<<"pushing on stack "<<page<<"\n";
+    //cout<<"pushing on stack "<<page<<"\n";
     Pass1.push(page);
 }
 
 void dfsPass2(int page)
 {
-    cout<<" Processing page in pass2 "<<page<<"\n";
+    //cout<<" Processing page in pass2 "<<page<<"\n";
     if(visited2[page]==true)
     {
         return;
@@ -128,7 +128,7 @@ void findConnectedComponents()
         dfsPass2(Pass1.top());
         
         min1=*(listOfVerticesProcessed.begin());
-        cout<<"for page "<<Pass1.top()<<" min1 is "<<min1<<"\n";
+        //cout<<"for page "<<Pass1.top()<<" min1 is "<<min1<<"\n";
         ForIter(it2,listOfVerticesProcessed)
         {
             result[*it2]=min1;
