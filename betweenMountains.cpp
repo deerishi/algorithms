@@ -61,33 +61,44 @@ void printn(int n)
         putc_unlocked(*ptr++,stdout);
     }
 }
+int mountain1[1000],mountain2[1000];
 int main()
 {	
-	int t=getInt(),i,j,n,c,min_dist,temp;
-	vector<int> v1;
-	vector<int>::iterator it;
+	int t=getInt(),m1,m2,diff,i,j,flag;
 	while(t--)
 	{
-		n=getInt();
-		c=getInt();
-		v1.clear();
-		for(i=0;i<n;i++)
+		diff=INT_MAX;
+		flag=0;
+		m1=getInt();
+		for(i=0;i<m1;i++)
 		{
-			v1.push_back(getInt());
+			mountain1[i]=getInt();
 		}
-		sort(v1.begin(),v1.end());
-		it=v1.begin();
-		if(c==2 and n>c)
+		m2=getInt();
+		for(i=0;i<m2;i++)
 		{
-			printn(*(it+n-1)-*it);blank;
+			mountain2[i]=getInt();
 		}
-		else if(c>=n)
+		for(i=0;i<m1;i++)
 		{
-			printn(0);blank;
+			for(j=0;j<m2;j++)
+			{
+				if(diff> int(abs(mountain1[i]-mountain2[j])))
+				{
+					diff=int(abs(mountain1[i]-mountain2[j]));
+				}
+				if(diff==0)
+				{
+					flag=1;
+					break;
+				}
+			}
+			if(flag==1)
+			{
+				break;
+			}
 		}
-		else
-		{
-			temp=n/c;
-			
-			
-	
+		printn(diff);
+		blank;	
+	}	
+}

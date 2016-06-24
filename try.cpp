@@ -1,12 +1,13 @@
-#include "bits/stdc++.h"
-using namespace std;
-char arr[1<<10];
-int main() 
+#include <boost/lambda/lambda.hpp>
+#include <iostream>
+#include <iterator>
+#include <algorithm>
+
+int main()
 {
-	//char arr[20]="hello world";
-	int i;
+    using namespace boost::lambda;
+    typedef std::istream_iterator<int> in;
 
-	cout<<"\n the array is "<<INT_MIN<<"\n";
-
-    return 0;
+    std::for_each(
+        in(std::cin), in(), std::cout << (_1 * 3) << " " );
 }
