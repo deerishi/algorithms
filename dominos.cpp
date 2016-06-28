@@ -46,25 +46,27 @@ void printn(int n)
 		putc_unlocked(*ptr++,stdout);
 	}
 }
-int N,M;
-vector<int> edges[100005],edgesReversed[100005],componentsInCycle;
+int N,M,componentNumber;
+unordered_map<int,int> vertice_componentNumber,component1_to_component2;
+vector<int> edges[100005],edgesReversed[100005],componentsInCycle,componentElements[100005];
 bool visited1[100005],visited2[100005];
 int indegree[100005];
 stack<int> pass1;
 int result;
+
 void resetParameters();
 void dfsPass1(int domino);
 void dfsPass2(int domino);
 void findConnectedComponents();
 void printResult();
-bool isValidConnectedComponent();
-
+void findInDegreeOfComponentgraph();
 
 
 
 void resetParameters()
 {
     int i,j,k;
+    componentNumber=1;
     result=0;
     For(i,1,N)
     {
@@ -113,18 +115,24 @@ void dfsPass2(int domino)
     }
 }
 
-bool isValidConnectedComponent()
+
+void findInDegreeOfComponentgraph()
 {
     vector<int>::iterator it;
-    ForIter(it,componentsInCycle)
+    int i,j,k;
+    For(i,1,N)
     {
-        if(indegree[*it]>0)
+        ForIter(it,edges[i])
         {
-            return false;
+            if(vertice_componentNumber[i]!=vertice_componentNumber[*it])
+            {
+                indegree[vertice_componentNumber[*it]]++;
+            }
         }
+        
     }
-    return true;
 }
+
 void findConnectedComponents()
 {
     int i,j,k;
@@ -154,13 +162,25 @@ void findConnectedComponents()
         }
         componentsInCycle.clear();
         dfsPass2(top);
-        if(isValidConnectedComponent())
+        ForIter(it,componentsInCycle)
+        {
+            vertice_componentNumber[*it]=componentNumber;
+            componentElements[componentNumber].push_back(*it);
+        }
+        componentNumber++;
+    }
+    
+    findInDegreeOfComponentgraph();
+    For(i,1,componentNumber-1)
+    {
+        if(indegree[i]==0)
         {
             result++;
         }
     }
-
 }
+
+
 
 void printResult()
 {
@@ -181,7 +201,7 @@ int main()
             x=getInt();
             y=getInt();
             edges[x].push_back(y);
-            indegree[y]++;
+            //indegree[y]++;
         }
         findConnectedComponents();
         printResult();
