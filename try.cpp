@@ -2,12 +2,17 @@
 #include <iostream>
 #include <iterator>
 #include <algorithm>
-
+#define For(i,start,end) for(i=start;i<=end;i++)
 int main()
 {
-    using namespace boost::lambda;
-    typedef std::istream_iterator<int> in;
-
-    std::for_each(
-        in(std::cin), in(), std::cout << (_1 * 3) << " " );
+    int i,j,k;
+    For(i,0,2000)
+    {
+        For(j,0,10000)
+        {
+            k=1;
+        }
+    }
+    return 0;
 }
+
