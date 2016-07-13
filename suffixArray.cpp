@@ -67,7 +67,7 @@ int findLcp(int x,int y,int k2)
     }
     return res;
 }
-int  buildSuffixArray()
+void   buildSuffixArray()
 {
     int i,j,k;
     for(i=0;i<N;i++)
@@ -108,22 +108,14 @@ int  buildSuffixArray()
         
         
     }
-    /*cout<<"Printing suffix final \n";
+    cout<<"Printing suffix final \n";
     printSuffix();
     cout<<"Printing P\n";
     printP(k2);
     cout<<"\nChecking for sanity check\n";
     sort(suffixes,suffixes+N,cmp2);
     printSuffix();
-    cout<<"Now finding LCP\n";*/
-    int res=suffixes[0].suffix.length();
-    for(i=1;i<N;i++)
-    {
-        //cout<<"res is "<<res<<"\n";
-        //cout<<"lcp of "<<suffixes[i-1].suffix<<" and "<<suffixes[i].suffix<<findLcp(suffixes[i-1].index,suffixes[i].index,k2-1)<<"\n";
-        res+=(suffixes[i].suffix.length())-findLcp(suffixes[i-1].index,suffixes[i].index,k2-1);
-    }
-    return res;
+ 
 }
 
 int main()
@@ -142,7 +134,7 @@ int main()
         N=str.length();
         //cout<<"str is "<<str<<"\n";
         //cout<<"calling build array\n";
-        cout<<buildSuffixArray()<<"\n";
+        buildSuffixArray();
     }
     
     return 0;
