@@ -1,18 +1,33 @@
-#include <boost/lambda/lambda.hpp>
-#include <iostream>
-#include <iterator>
-#include <algorithm>
-#define For(i,start,end) for(i=start;i<=end;i++)
+#include "bits/stdc++.h"
+using namespace std;
+string str;
+
+void getStr()
+{
+    char ch;
+    ch=getc_unlocked(stdin);
+    while(ch<'-')
+    {
+        ch=getc_unlocked(stdin);
+    }
+    while(isalpha(ch))
+    {
+        str+=ch;
+        ch=getc_unlocked(stdin);
+    }
+}
 int main()
 {
-    int i,j,k;
-    For(i,0,2000)
-    {
-        For(j,0,10000)
-        {
-            k=1;
-        }
-    }
-    return 0;
-}
+    //std::ios::sync_with_stdio(false);
+   
+        getStr();
+        
+        str=str+str;
+        int N=str.length();
+        
+        cout<<"str is "<<str.length()<<"\n";
 
+    
+    return 0;
+    
+}

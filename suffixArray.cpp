@@ -85,12 +85,12 @@ void   buildSuffixArray()
             suffixes[i].rank[1]=(suffixes[i].index+k<N)?(P[k2-1][suffixes[i].index+k]):-1;
         }
     
-        //cout<<"Printing suffix before with k="<<k<<"\n";
-        //printSuffix();
+        cout<<"Printing suffix before with k="<<k<<"\n";
+        printSuffix();
         
         sort(suffixes,suffixes+N,cmp);  
-        //cout<<"Printing suffix after with k="<<k<<"\n";
-        //printSuffix();
+        cout<<"Printing suffix after with k="<<k<<"\n";
+        printSuffix();
         int cnt=0;
         for(i=0;i<N;i++)
         {
@@ -129,7 +129,9 @@ int main()
     while(t--)
     {
         //cout<<"t is "<<t<<"\n\n";
+
         cin>>str;
+
         boost::algorithm::to_lower(str);
         N=str.length();
         //cout<<"str is "<<str<<"\n";
