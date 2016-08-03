@@ -9,7 +9,7 @@ struct Node
 {
     int index,rank[2];
     //string suffix;
-}suffixes[60005],tempSuffixes[60005];
+}suffixes[60005],tempSuffixes[60005] ;
 
 
 int P[20][60005];

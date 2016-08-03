@@ -19,7 +19,6 @@ int getInt()
 	return n1*sign; 
 }
 
-
 void printn(int n) 
 {
 	char *ptr=current+30;
@@ -140,7 +139,6 @@ int main()
     {
         printf("%d ",*it1);
         //putc_unlocked(' ',stdout);
-        
     }
     blank;
     return 0;

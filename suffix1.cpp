@@ -108,9 +108,9 @@ int  buildSuffixArray()
         
         
     }
-    /*cout<<"Printing suffix final \n";
+    cout<<"Printing suffix final \n";
     printSuffix();
-    cout<<"Printing P\n";
+   /* cout<<"Printing P\n";
     printP(k2);
     cout<<"\nChecking for sanity check\n";
     sort(suffixes,suffixes+N,cmp2);
