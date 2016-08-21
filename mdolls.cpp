@@ -160,6 +160,7 @@ int main()
 {
     int t=getInt();
     int w,h,n;
+    int res;
     while(t--)
     {
         vector<pair<int,int> > dolls;
@@ -172,6 +173,7 @@ int main()
             
         }
         findNumberOfIncreasingSubsequences(dolls);
+       
     }
     return 0;
 }
