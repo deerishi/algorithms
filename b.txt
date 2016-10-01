@@ -1,66 +1,394 @@
-Lastdigit is 0 and remainingDigits are 2 tmp is 10
-Lastdigit is 1 and remainingDigits are 2 tmp is 9
-Lastdigit is 2 and remainingDigits are 2 tmp is 8
-Lastdigit is 3 and remainingDigits are 2 tmp is 7
-Lastdigit is 4 and remainingDigits are 2 tmp is 6
-Lastdigit is 5 and remainingDigits are 2 tmp is 5
-Lastdigit is 6 and remainingDigits are 2 tmp is 4
-Lastdigit is 7 and remainingDigits are 2 tmp is 3
-Lastdigit is 8 and remainingDigits are 2 tmp is 2
-Lastdigit is 9 and remainingDigits are 2 tmp is 1
-Lastdigit is 0 and remainingDigits are 3 tmp is 55
-Lastdigit is 1 and remainingDigits are 2 tmp is 9
-Lastdigit is 2 and remainingDigits are 2 tmp is 8
-Lastdigit is 3 and remainingDigits are 2 tmp is 7
-Lastdigit is 4 and remainingDigits are 2 tmp is 6
-Lastdigit is 5 and remainingDigits are 2 tmp is 5
-Lastdigit is 6 and remainingDigits are 2 tmp is 4
-Lastdigit is 7 and remainingDigits are 2 tmp is 3
-Lastdigit is 8 and remainingDigits are 2 tmp is 2
-Lastdigit is 9 and remainingDigits are 2 tmp is 1
-Lastdigit is 1 and remainingDigits are 3 tmp is 45
-Lastdigit is 2 and remainingDigits are 2 tmp is 8
-Lastdigit is 3 and remainingDigits are 2 tmp is 7
-Lastdigit is 4 and remainingDigits are 2 tmp is 6
-Lastdigit is 5 and remainingDigits are 2 tmp is 5
-Lastdigit is 6 and remainingDigits are 2 tmp is 4
-Lastdigit is 7 and remainingDigits are 2 tmp is 3
-Lastdigit is 8 and remainingDigits are 2 tmp is 2
-Lastdigit is 9 and remainingDigits are 2 tmp is 1
-Lastdigit is 2 and remainingDigits are 3 tmp is 36
-Lastdigit is 3 and remainingDigits are 2 tmp is 7
-Lastdigit is 4 and remainingDigits are 2 tmp is 6
-Lastdigit is 5 and remainingDigits are 2 tmp is 5
-Lastdigit is 6 and remainingDigits are 2 tmp is 4
-Lastdigit is 7 and remainingDigits are 2 tmp is 3
-Lastdigit is 8 and remainingDigits are 2 tmp is 2
-Lastdigit is 9 and remainingDigits are 2 tmp is 1
-Lastdigit is 3 and remainingDigits are 3 tmp is 28
-Lastdigit is 4 and remainingDigits are 2 tmp is 6
-Lastdigit is 5 and remainingDigits are 2 tmp is 5
-Lastdigit is 6 and remainingDigits are 2 tmp is 4
-Lastdigit is 7 and remainingDigits are 2 tmp is 3
-Lastdigit is 8 and remainingDigits are 2 tmp is 2
-Lastdigit is 9 and remainingDigits are 2 tmp is 1
-Lastdigit is 4 and remainingDigits are 3 tmp is 21
-Lastdigit is 5 and remainingDigits are 2 tmp is 5
-Lastdigit is 6 and remainingDigits are 2 tmp is 4
-Lastdigit is 7 and remainingDigits are 2 tmp is 3
-Lastdigit is 8 and remainingDigits are 2 tmp is 2
-Lastdigit is 9 and remainingDigits are 2 tmp is 1
-Lastdigit is 5 and remainingDigits are 3 tmp is 15
-Lastdigit is 6 and remainingDigits are 2 tmp is 4
-Lastdigit is 7 and remainingDigits are 2 tmp is 3
-Lastdigit is 8 and remainingDigits are 2 tmp is 2
-Lastdigit is 9 and remainingDigits are 2 tmp is 1
-Lastdigit is 6 and remainingDigits are 3 tmp is 10
-Lastdigit is 7 and remainingDigits are 2 tmp is 3
-Lastdigit is 8 and remainingDigits are 2 tmp is 2
-Lastdigit is 9 and remainingDigits are 2 tmp is 1
-Lastdigit is 7 and remainingDigits are 3 tmp is 6
-Lastdigit is 8 and remainingDigits are 2 tmp is 2
-Lastdigit is 9 and remainingDigits are 2 tmp is 1
-Lastdigit is 8 and remainingDigits are 3 tmp is 3
-Lastdigit is 9 and remainingDigits are 2 tmp is 1
-Lastdigit is 9 and remainingDigits are 3 tmp is 1
-the result is 220
+arr is 
+25,27,11
+25,27,11
+25,27,11
+25,27,11
+25,27,11
+25,27,11
+25,27,11
+25,27,11
+25,27,11
+25,27,11
+25,27,11
+
+Solving subproblem 2,1 with result 0
+Solving subproblem 1,1 with result 0
+Solving subproblem 1,2 with result 0
+Solving subproblem 1,1 with result 0
+Solving subproblem 1,2 with result 0
+Solving subproblem 2,1 with result 0
+Solving subproblem 8,1 with result 6
+Solving subproblem 8,2 with result 6
+Solving subproblem 8,3 with result 6
+Solving subproblem 1,1 with result 0
+Solving subproblem 1,2 with result 0
+Solving subproblem 2,1 with result 0
+Solving subproblem 8,1 with result 6
+Solving subproblem 8,2 with result 6
+Solving subproblem 8,3 with result 6
+Solving subproblem 1,1 with result 0
+Solving subproblem 1,2 with result 0
+Solving subproblem 2,1 with result 0
+Solving subproblem 15,1 with result 6
+Solving subproblem 15,2 with result 6
+Solving subproblem 15,3 with result 6
+Solving subproblem 15,4 with result 17
+Solving subproblem 1,1 with result 0
+Solving subproblem 1,2 with result 0
+Solving subproblem 2,1 with result 0
+Solving subproblem 8,1 with result 6
+Solving subproblem 8,2 with result 6
+Solving subproblem 8,3 with result 6
+Solving subproblem 1,1 with result 0
+Solving subproblem 1,2 with result 0
+Solving subproblem 2,1 with result 0
+Solving subproblem 15,1 with result 6
+Solving subproblem 15,2 with result 6
+Solving subproblem 15,3 with result 6
+Solving subproblem 15,4 with result 17
+Solving subproblem 15,5 with result 17
+Solving subproblem 1,1 with result 0
+Solving subproblem 1,2 with result 0
+Solving subproblem 2,1 with result 0
+Solving subproblem 8,1 with result 6
+Solving subproblem 8,2 with result 6
+Solving subproblem 8,3 with result 6
+Solving subproblem 1,1 with result 0
+Solving subproblem 1,2 with result 0
+Solving subproblem 2,1 with result 0
+Solving subproblem 15,1 with result 6
+Solving subproblem 15,2 with result 6
+Solving subproblem 15,3 with result 6
+Solving subproblem 15,4 with result 17
+Solving subproblem 15,5 with result 17
+Solving subproblem 1,1 with result 0
+Solving subproblem 1,2 with result 0
+Solving subproblem 2,1 with result 0
+Solving subproblem 8,1 with result 6
+Solving subproblem 8,2 with result 6
+Solving subproblem 8,3 with result 6
+Solving subproblem 1,1 with result 0
+Solving subproblem 1,2 with result 0
+Solving subproblem 2,1 with result 0
+Solving subproblem 15,1 with result 6
+Solving subproblem 15,2 with result 6
+Solving subproblem 15,3 with result 6
+Solving subproblem 15,4 with result 17
+Solving subproblem 1,1 with result 0
+Solving subproblem 1,2 with result 0
+Solving subproblem 2,1 with result 0
+Solving subproblem 8,1 with result 6
+Solving subproblem 8,2 with result 6
+Solving subproblem 8,3 with result 6
+Solving subproblem 1,1 with result 0
+Solving subproblem 1,2 with result 0
+Solving subproblem 2,1 with result 0
+Solving subproblem 20,1 with result 6
+Solving subproblem 20,2 with result 6
+Solving subproblem 20,3 with result 6
+Solving subproblem 20,4 with result 17
+Solving subproblem 20,5 with result 18
+Solving subproblem 20,6 with result 27
+Solving subproblem 1,1 with result 0
+Solving subproblem 1,2 with result 0
+Solving subproblem 2,1 with result 0
+Solving subproblem 8,1 with result 6
+Solving subproblem 8,2 with result 6
+Solving subproblem 8,3 with result 6
+Solving subproblem 1,1 with result 0
+Solving subproblem 1,2 with result 0
+Solving subproblem 2,1 with result 0
+Solving subproblem 15,1 with result 6
+Solving subproblem 15,2 with result 6
+Solving subproblem 15,3 with result 6
+Solving subproblem 15,4 with result 17
+Solving subproblem 15,5 with result 17
+Solving subproblem 1,1 with result 0
+Solving subproblem 1,2 with result 0
+Solving subproblem 2,1 with result 0
+Solving subproblem 8,1 with result 6
+Solving subproblem 8,2 with result 6
+Solving subproblem 8,3 with result 6
+Solving subproblem 1,1 with result 0
+Solving subproblem 1,2 with result 0
+Solving subproblem 2,1 with result 0
+Solving subproblem 15,1 with result 6
+Solving subproblem 15,2 with result 6
+Solving subproblem 15,3 with result 6
+Solving subproblem 15,4 with result 17
+Solving subproblem 1,1 with result 0
+Solving subproblem 1,2 with result 0
+Solving subproblem 2,1 with result 0
+Solving subproblem 8,1 with result 6
+Solving subproblem 8,2 with result 6
+Solving subproblem 8,3 with result 6
+Solving subproblem 1,1 with result 0
+Solving subproblem 1,2 with result 0
+Solving subproblem 2,1 with result 0
+Solving subproblem 20,1 with result 6
+Solving subproblem 20,2 with result 6
+Solving subproblem 20,3 with result 6
+Solving subproblem 20,4 with result 17
+Solving subproblem 20,5 with result 18
+Solving subproblem 20,6 with result 27
+Solving subproblem 20,7 with result 27
+Solving subproblem 1,1 with result 0
+Solving subproblem 1,2 with result 0
+Solving subproblem 2,1 with result 0
+Solving subproblem 8,1 with result 6
+Solving subproblem 8,2 with result 6
+Solving subproblem 8,3 with result 6
+Solving subproblem 1,1 with result 0
+Solving subproblem 1,2 with result 0
+Solving subproblem 2,1 with result 0
+Solving subproblem 15,1 with result 6
+Solving subproblem 15,2 with result 6
+Solving subproblem 15,3 with result 6
+Solving subproblem 15,4 with result 17
+Solving subproblem 15,5 with result 17
+Solving subproblem 1,1 with result 0
+Solving subproblem 1,2 with result 0
+Solving subproblem 2,1 with result 0
+Solving subproblem 8,1 with result 6
+Solving subproblem 8,2 with result 6
+Solving subproblem 8,3 with result 6
+Solving subproblem 1,1 with result 0
+Solving subproblem 1,2 with result 0
+Solving subproblem 2,1 with result 0
+Solving subproblem 15,1 with result 6
+Solving subproblem 15,2 with result 6
+Solving subproblem 15,3 with result 6
+Solving subproblem 15,4 with result 17
+Solving subproblem 1,1 with result 0
+Solving subproblem 1,2 with result 0
+Solving subproblem 2,1 with result 0
+Solving subproblem 8,1 with result 6
+Solving subproblem 8,2 with result 6
+Solving subproblem 8,3 with result 6
+Solving subproblem 1,1 with result 0
+Solving subproblem 1,2 with result 0
+Solving subproblem 2,1 with result 0
+Solving subproblem 20,1 with result 6
+Solving subproblem 20,2 with result 6
+Solving subproblem 20,3 with result 6
+Solving subproblem 20,4 with result 17
+Solving subproblem 20,5 with result 18
+Solving subproblem 20,6 with result 27
+Solving subproblem 20,7 with result 27
+Solving subproblem 1,1 with result 0
+Solving subproblem 1,2 with result 0
+Solving subproblem 2,1 with result 0
+Solving subproblem 8,1 with result 6
+Solving subproblem 8,2 with result 6
+Solving subproblem 8,3 with result 6
+Solving subproblem 1,1 with result 0
+Solving subproblem 1,2 with result 0
+Solving subproblem 2,1 with result 0
+Solving subproblem 15,1 with result 6
+Solving subproblem 15,2 with result 6
+Solving subproblem 15,3 with result 6
+Solving subproblem 15,4 with result 17
+Solving subproblem 15,5 with result 17
+Solving subproblem 1,1 with result 0
+Solving subproblem 1,2 with result 0
+Solving subproblem 2,1 with result 0
+Solving subproblem 8,1 with result 6
+Solving subproblem 8,2 with result 6
+Solving subproblem 8,3 with result 6
+Solving subproblem 1,1 with result 0
+Solving subproblem 1,2 with result 0
+Solving subproblem 2,1 with result 0
+Solving subproblem 15,1 with result 6
+Solving subproblem 15,2 with result 6
+Solving subproblem 15,3 with result 6
+Solving subproblem 15,4 with result 17
+Solving subproblem 1,1 with result 0
+Solving subproblem 1,2 with result 0
+Solving subproblem 2,1 with result 0
+Solving subproblem 8,1 with result 6
+Solving subproblem 8,2 with result 6
+Solving subproblem 8,3 with result 6
+Solving subproblem 1,1 with result 0
+Solving subproblem 1,2 with result 0
+Solving subproblem 2,1 with result 0
+Solving subproblem 20,1 with result 6
+Solving subproblem 20,2 with result 6
+Solving subproblem 20,3 with result 6
+Solving subproblem 20,4 with result 17
+Solving subproblem 20,5 with result 18
+Solving subproblem 20,6 with result 27
+Solving subproblem 1,1 with result 0
+Solving subproblem 1,2 with result 0
+Solving subproblem 2,1 with result 0
+Solving subproblem 8,1 with result 6
+Solving subproblem 8,2 with result 6
+Solving subproblem 8,3 with result 6
+Solving subproblem 1,1 with result 0
+Solving subproblem 1,2 with result 0
+Solving subproblem 2,1 with result 0
+Solving subproblem 15,1 with result 6
+Solving subproblem 15,2 with result 6
+Solving subproblem 15,3 with result 6
+Solving subproblem 15,4 with result 17
+Solving subproblem 15,5 with result 17
+Solving subproblem 1,1 with result 0
+Solving subproblem 1,2 with result 0
+Solving subproblem 2,1 with result 0
+Solving subproblem 8,1 with result 6
+Solving subproblem 8,2 with result 6
+Solving subproblem 8,3 with result 6
+Solving subproblem 1,1 with result 0
+Solving subproblem 1,2 with result 0
+Solving subproblem 2,1 with result 0
+Solving subproblem 15,1 with result 6
+Solving subproblem 15,2 with result 6
+Solving subproblem 15,3 with result 6
+Solving subproblem 15,4 with result 17
+Solving subproblem 1,1 with result 0
+Solving subproblem 1,2 with result 0
+Solving subproblem 2,1 with result 0
+Solving subproblem 8,1 with result 6
+Solving subproblem 8,2 with result 6
+Solving subproblem 8,3 with result 6
+Solving subproblem 1,1 with result 0
+Solving subproblem 1,2 with result 0
+Solving subproblem 2,1 with result 0
+Solving subproblem 25,1 with result 6
+Solving subproblem 25,2 with result 6
+Solving subproblem 25,3 with result 6
+Solving subproblem 25,4 with result 17
+Solving subproblem 25,5 with result 18
+Solving subproblem 25,6 with result 27
+Solving subproblem 25,7 with result 28
+Solving subproblem 25,8 with result 37
+Solving subproblem 1,1 with result 0
+Solving subproblem 1,2 with result 0
+Solving subproblem 2,1 with result 0
+Solving subproblem 8,1 with result 6
+Solving subproblem 8,2 with result 6
+Solving subproblem 8,3 with result 6
+Solving subproblem 1,1 with result 0
+Solving subproblem 1,2 with result 0
+Solving subproblem 2,1 with result 0
+Solving subproblem 15,1 with result 6
+Solving subproblem 15,2 with result 6
+Solving subproblem 15,3 with result 6
+Solving subproblem 15,4 with result 17
+Solving subproblem 15,5 with result 17
+Solving subproblem 1,1 with result 0
+Solving subproblem 1,2 with result 0
+Solving subproblem 2,1 with result 0
+Solving subproblem 8,1 with result 6
+Solving subproblem 8,2 with result 6
+Solving subproblem 8,3 with result 6
+Solving subproblem 1,1 with result 0
+Solving subproblem 1,2 with result 0
+Solving subproblem 2,1 with result 0
+Solving subproblem 15,1 with result 6
+Solving subproblem 15,2 with result 6
+Solving subproblem 15,3 with result 6
+Solving subproblem 15,4 with result 17
+Solving subproblem 1,1 with result 0
+Solving subproblem 1,2 with result 0
+Solving subproblem 2,1 with result 0
+Solving subproblem 8,1 with result 6
+Solving subproblem 8,2 with result 6
+Solving subproblem 8,3 with result 6
+Solving subproblem 1,1 with result 0
+Solving subproblem 1,2 with result 0
+Solving subproblem 2,1 with result 0
+Solving subproblem 20,1 with result 6
+Solving subproblem 20,2 with result 6
+Solving subproblem 20,3 with result 6
+Solving subproblem 20,4 with result 17
+Solving subproblem 20,5 with result 18
+Solving subproblem 20,6 with result 27
+Solving subproblem 20,7 with result 27
+Solving subproblem 1,1 with result 0
+Solving subproblem 1,2 with result 0
+Solving subproblem 2,1 with result 0
+Solving subproblem 8,1 with result 6
+Solving subproblem 8,2 with result 6
+Solving subproblem 8,3 with result 6
+Solving subproblem 1,1 with result 0
+Solving subproblem 1,2 with result 0
+Solving subproblem 2,1 with result 0
+Solving subproblem 15,1 with result 6
+Solving subproblem 15,2 with result 6
+Solving subproblem 15,3 with result 6
+Solving subproblem 15,4 with result 17
+Solving subproblem 15,5 with result 17
+Solving subproblem 1,1 with result 0
+Solving subproblem 1,2 with result 0
+Solving subproblem 2,1 with result 0
+Solving subproblem 8,1 with result 6
+Solving subproblem 8,2 with result 6
+Solving subproblem 8,3 with result 6
+Solving subproblem 1,1 with result 0
+Solving subproblem 1,2 with result 0
+Solving subproblem 2,1 with result 0
+Solving subproblem 15,1 with result 6
+Solving subproblem 15,2 with result 6
+Solving subproblem 15,3 with result 6
+Solving subproblem 15,4 with result 17
+Solving subproblem 1,1 with result 0
+Solving subproblem 1,2 with result 0
+Solving subproblem 2,1 with result 0
+Solving subproblem 8,1 with result 6
+Solving subproblem 8,2 with result 6
+Solving subproblem 8,3 with result 6
+Solving subproblem 1,1 with result 0
+Solving subproblem 1,2 with result 0
+Solving subproblem 2,1 with result 0
+Solving subproblem 20,1 with result 6
+Solving subproblem 20,2 with result 6
+Solving subproblem 20,3 with result 6
+Solving subproblem 20,4 with result 17
+Solving subproblem 20,5 with result 18
+Solving subproblem 20,6 with result 27
+Solving subproblem 1,1 with result 0
+Solving subproblem 1,2 with result 0
+Solving subproblem 2,1 with result 0
+Solving subproblem 8,1 with result 6
+Solving subproblem 8,2 with result 6
+Solving subproblem 8,3 with result 6
+Solving subproblem 1,1 with result 0
+Solving subproblem 1,2 with result 0
+Solving subproblem 2,1 with result 0
+Solving subproblem 15,1 with result 6
+Solving subproblem 15,2 with result 6
+Solving subproblem 15,3 with result 6
+Solving subproblem 15,4 with result 17
+Solving subproblem 15,5 with result 17
+Solving subproblem 1,1 with result 0
+Solving subproblem 1,2 with result 0
+Solving subproblem 2,1 with result 0
+Solving subproblem 8,1 with result 6
+Solving subproblem 8,2 with result 6
+Solving subproblem 8,3 with result 6
+Solving subproblem 1,1 with result 0
+Solving subproblem 1,2 with result 0
+Solving subproblem 2,1 with result 0
+Solving subproblem 15,1 with result 6
+Solving subproblem 15,2 with result 6
+Solving subproblem 15,3 with result 6
+Solving subproblem 15,4 with result 17
+Solving subproblem 1,1 with result 0
+Solving subproblem 1,2 with result 0
+Solving subproblem 2,1 with result 0
+Solving subproblem 8,1 with result 6
+Solving subproblem 8,2 with result 6
+Solving subproblem 8,3 with result 6
+Solving subproblem 1,1 with result 0
+Solving subproblem 1,2 with result 0
+Solving subproblem 2,1 with result 0
+Solving subproblem 25,1 with result 6
+Solving subproblem 25,2 with result 6
+Solving subproblem 25,3 with result 6
+Solving subproblem 25,4 with result 17
+Solving subproblem 25,5 with result 18
+Solving subproblem 25,6 with result 27
+Solving subproblem 25,7 with result 28
+Solving subproblem 25,8 with result 37
+Solving subproblem 25,9 with result 37
+the max profit is 52

@@ -1,0 +1,21 @@
+//Geek for geeks Bitmasking and Dynamic Programming | Set 1 (Count ways to assign unique cap to every person)
+#include "bits/stdc++.h"
+using namespace std;
+
+#define blank putc_unlocked('\n',stdout);
+#define ForIter(it,name) for(it=name.begin();it!=name.end();it++)
+#define Forall(i,start,end) for(i=start;i<=end;i++)
+#define For(i,start,end) for(i=start;i<end;i++)
+string str1,str2;
+
+int findRes(int s1,int s2)
+{
+  
+}
+int main()
+{
+  std::ios::sync_with_stdio(false);
+  cin>>str1>>str2;
+  cout<<"the result is "<<findRes(str1.length()-1,str2.length()-1);
+  return 0;
+}
