@@ -1,56 +1,23 @@
-//SPOJ RENT 
-
 #include "bits/stdc++.h"
 using namespace std;
-typedef unsigned long long int ull;
-#define blank putc_unlocked('\n',stdout);
-
-#define Forall(i,start,end) for(i=start;i<=end;i++)
-#define For(i,start,end) for(i=start;i<end;i++)
-struct Job
-{
-  int start,end,profit;
-
-  //Job():start(0),end(0),profit(0){}
-  //Job(int x,int y,int z): start(x),end(y),profit(z){}
-};
-bool cmp(Job a,Job b)
-{
-    return a.end<b.end;
-}
-vector<Job> arr;
-int main()
-{
-  std::ios::sync_with_stdio(false);
-  int n,i,j,k;
-  cin>>n;
- 
-    arr.push_back({0,0,0});
-//arr[0].start=0;arr[0].end=0;arr[0].profit=0;
-  
-  int x,y,z;
-  Forall(i,1,n)
-  {
+#define REP(i,n) for(int i=0; i<n; i++)
+#define For(i,st,end) for(int i=st;i<end;i++)
+#define db(x) cout << (#x) << " = " << x << endl;
+#define mp make_pair
+#define pb push_back
+typedef long long int ll;
+int main(){
+	
+	int i=1,j=1,k=1;
+	int n,m;
+	cin>>n>>m;
+	int arr[n][m];
+	For(i,0,n)
+	{
+	    For(j,0,m)
+	    arr[i][j]=i*j;
+	}
+	cout<<" res is "<<(i&j&k)<<" \n";
+	return 0;
     
-    cin>>x>>y>>z;
-    cout<<"x,y,z="<<x<<","<<y<<","<<z<<"\n";
-arr.push_back({x,y,z});
-    //arr[i].start=x;arr[i].end=y;arr[i].profit=z;
-    cout<<"arr["<<i<<"] is "<<arr[i].start<<","<<arr[i].end<<","<<arr[i].profit<<"\n";
-  }
-  cout<<"before arr is \n";
-  Forall(i,1,n)
-  {
-    cout<<arr[i].start<<","<<arr[i].end<<","<<arr[i].profit<<"\n";
-  }
-  cout<<"\n";
-  sort(arr.begin(),arr.end(),cmp);
-  cout<<"arr is \n";
-  Forall(i,1,n)
-  {
-    cout<<arr[i].start<<","<<arr[i].end<<","<<arr[i].profit<<"\n";
-  }
-  cout<<"\n";
- 
-  return 0;
 }

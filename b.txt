@@ -1,394 +1,56 @@
-arr is 
-25,27,11
-25,27,11
-25,27,11
-25,27,11
-25,27,11
-25,27,11
-25,27,11
-25,27,11
-25,27,11
-25,27,11
-25,27,11
-
-Solving subproblem 2,1 with result 0
-Solving subproblem 1,1 with result 0
-Solving subproblem 1,2 with result 0
-Solving subproblem 1,1 with result 0
-Solving subproblem 1,2 with result 0
-Solving subproblem 2,1 with result 0
-Solving subproblem 8,1 with result 6
-Solving subproblem 8,2 with result 6
-Solving subproblem 8,3 with result 6
-Solving subproblem 1,1 with result 0
-Solving subproblem 1,2 with result 0
-Solving subproblem 2,1 with result 0
-Solving subproblem 8,1 with result 6
-Solving subproblem 8,2 with result 6
-Solving subproblem 8,3 with result 6
-Solving subproblem 1,1 with result 0
-Solving subproblem 1,2 with result 0
-Solving subproblem 2,1 with result 0
-Solving subproblem 15,1 with result 6
-Solving subproblem 15,2 with result 6
-Solving subproblem 15,3 with result 6
-Solving subproblem 15,4 with result 17
-Solving subproblem 1,1 with result 0
-Solving subproblem 1,2 with result 0
-Solving subproblem 2,1 with result 0
-Solving subproblem 8,1 with result 6
-Solving subproblem 8,2 with result 6
-Solving subproblem 8,3 with result 6
-Solving subproblem 1,1 with result 0
-Solving subproblem 1,2 with result 0
-Solving subproblem 2,1 with result 0
-Solving subproblem 15,1 with result 6
-Solving subproblem 15,2 with result 6
-Solving subproblem 15,3 with result 6
-Solving subproblem 15,4 with result 17
-Solving subproblem 15,5 with result 17
-Solving subproblem 1,1 with result 0
-Solving subproblem 1,2 with result 0
-Solving subproblem 2,1 with result 0
-Solving subproblem 8,1 with result 6
-Solving subproblem 8,2 with result 6
-Solving subproblem 8,3 with result 6
-Solving subproblem 1,1 with result 0
-Solving subproblem 1,2 with result 0
-Solving subproblem 2,1 with result 0
-Solving subproblem 15,1 with result 6
-Solving subproblem 15,2 with result 6
-Solving subproblem 15,3 with result 6
-Solving subproblem 15,4 with result 17
-Solving subproblem 15,5 with result 17
-Solving subproblem 1,1 with result 0
-Solving subproblem 1,2 with result 0
-Solving subproblem 2,1 with result 0
-Solving subproblem 8,1 with result 6
-Solving subproblem 8,2 with result 6
-Solving subproblem 8,3 with result 6
-Solving subproblem 1,1 with result 0
-Solving subproblem 1,2 with result 0
-Solving subproblem 2,1 with result 0
-Solving subproblem 15,1 with result 6
-Solving subproblem 15,2 with result 6
-Solving subproblem 15,3 with result 6
-Solving subproblem 15,4 with result 17
-Solving subproblem 1,1 with result 0
-Solving subproblem 1,2 with result 0
-Solving subproblem 2,1 with result 0
-Solving subproblem 8,1 with result 6
-Solving subproblem 8,2 with result 6
-Solving subproblem 8,3 with result 6
-Solving subproblem 1,1 with result 0
-Solving subproblem 1,2 with result 0
-Solving subproblem 2,1 with result 0
-Solving subproblem 20,1 with result 6
-Solving subproblem 20,2 with result 6
-Solving subproblem 20,3 with result 6
-Solving subproblem 20,4 with result 17
-Solving subproblem 20,5 with result 18
-Solving subproblem 20,6 with result 27
-Solving subproblem 1,1 with result 0
-Solving subproblem 1,2 with result 0
-Solving subproblem 2,1 with result 0
-Solving subproblem 8,1 with result 6
-Solving subproblem 8,2 with result 6
-Solving subproblem 8,3 with result 6
-Solving subproblem 1,1 with result 0
-Solving subproblem 1,2 with result 0
-Solving subproblem 2,1 with result 0
-Solving subproblem 15,1 with result 6
-Solving subproblem 15,2 with result 6
-Solving subproblem 15,3 with result 6
-Solving subproblem 15,4 with result 17
-Solving subproblem 15,5 with result 17
-Solving subproblem 1,1 with result 0
-Solving subproblem 1,2 with result 0
-Solving subproblem 2,1 with result 0
-Solving subproblem 8,1 with result 6
-Solving subproblem 8,2 with result 6
-Solving subproblem 8,3 with result 6
-Solving subproblem 1,1 with result 0
-Solving subproblem 1,2 with result 0
-Solving subproblem 2,1 with result 0
-Solving subproblem 15,1 with result 6
-Solving subproblem 15,2 with result 6
-Solving subproblem 15,3 with result 6
-Solving subproblem 15,4 with result 17
-Solving subproblem 1,1 with result 0
-Solving subproblem 1,2 with result 0
-Solving subproblem 2,1 with result 0
-Solving subproblem 8,1 with result 6
-Solving subproblem 8,2 with result 6
-Solving subproblem 8,3 with result 6
-Solving subproblem 1,1 with result 0
-Solving subproblem 1,2 with result 0
-Solving subproblem 2,1 with result 0
-Solving subproblem 20,1 with result 6
-Solving subproblem 20,2 with result 6
-Solving subproblem 20,3 with result 6
-Solving subproblem 20,4 with result 17
-Solving subproblem 20,5 with result 18
-Solving subproblem 20,6 with result 27
-Solving subproblem 20,7 with result 27
-Solving subproblem 1,1 with result 0
-Solving subproblem 1,2 with result 0
-Solving subproblem 2,1 with result 0
-Solving subproblem 8,1 with result 6
-Solving subproblem 8,2 with result 6
-Solving subproblem 8,3 with result 6
-Solving subproblem 1,1 with result 0
-Solving subproblem 1,2 with result 0
-Solving subproblem 2,1 with result 0
-Solving subproblem 15,1 with result 6
-Solving subproblem 15,2 with result 6
-Solving subproblem 15,3 with result 6
-Solving subproblem 15,4 with result 17
-Solving subproblem 15,5 with result 17
-Solving subproblem 1,1 with result 0
-Solving subproblem 1,2 with result 0
-Solving subproblem 2,1 with result 0
-Solving subproblem 8,1 with result 6
-Solving subproblem 8,2 with result 6
-Solving subproblem 8,3 with result 6
-Solving subproblem 1,1 with result 0
-Solving subproblem 1,2 with result 0
-Solving subproblem 2,1 with result 0
-Solving subproblem 15,1 with result 6
-Solving subproblem 15,2 with result 6
-Solving subproblem 15,3 with result 6
-Solving subproblem 15,4 with result 17
-Solving subproblem 1,1 with result 0
-Solving subproblem 1,2 with result 0
-Solving subproblem 2,1 with result 0
-Solving subproblem 8,1 with result 6
-Solving subproblem 8,2 with result 6
-Solving subproblem 8,3 with result 6
-Solving subproblem 1,1 with result 0
-Solving subproblem 1,2 with result 0
-Solving subproblem 2,1 with result 0
-Solving subproblem 20,1 with result 6
-Solving subproblem 20,2 with result 6
-Solving subproblem 20,3 with result 6
-Solving subproblem 20,4 with result 17
-Solving subproblem 20,5 with result 18
-Solving subproblem 20,6 with result 27
-Solving subproblem 20,7 with result 27
-Solving subproblem 1,1 with result 0
-Solving subproblem 1,2 with result 0
-Solving subproblem 2,1 with result 0
-Solving subproblem 8,1 with result 6
-Solving subproblem 8,2 with result 6
-Solving subproblem 8,3 with result 6
-Solving subproblem 1,1 with result 0
-Solving subproblem 1,2 with result 0
-Solving subproblem 2,1 with result 0
-Solving subproblem 15,1 with result 6
-Solving subproblem 15,2 with result 6
-Solving subproblem 15,3 with result 6
-Solving subproblem 15,4 with result 17
-Solving subproblem 15,5 with result 17
-Solving subproblem 1,1 with result 0
-Solving subproblem 1,2 with result 0
-Solving subproblem 2,1 with result 0
-Solving subproblem 8,1 with result 6
-Solving subproblem 8,2 with result 6
-Solving subproblem 8,3 with result 6
-Solving subproblem 1,1 with result 0
-Solving subproblem 1,2 with result 0
-Solving subproblem 2,1 with result 0
-Solving subproblem 15,1 with result 6
-Solving subproblem 15,2 with result 6
-Solving subproblem 15,3 with result 6
-Solving subproblem 15,4 with result 17
-Solving subproblem 1,1 with result 0
-Solving subproblem 1,2 with result 0
-Solving subproblem 2,1 with result 0
-Solving subproblem 8,1 with result 6
-Solving subproblem 8,2 with result 6
-Solving subproblem 8,3 with result 6
-Solving subproblem 1,1 with result 0
-Solving subproblem 1,2 with result 0
-Solving subproblem 2,1 with result 0
-Solving subproblem 20,1 with result 6
-Solving subproblem 20,2 with result 6
-Solving subproblem 20,3 with result 6
-Solving subproblem 20,4 with result 17
-Solving subproblem 20,5 with result 18
-Solving subproblem 20,6 with result 27
-Solving subproblem 1,1 with result 0
-Solving subproblem 1,2 with result 0
-Solving subproblem 2,1 with result 0
-Solving subproblem 8,1 with result 6
-Solving subproblem 8,2 with result 6
-Solving subproblem 8,3 with result 6
-Solving subproblem 1,1 with result 0
-Solving subproblem 1,2 with result 0
-Solving subproblem 2,1 with result 0
-Solving subproblem 15,1 with result 6
-Solving subproblem 15,2 with result 6
-Solving subproblem 15,3 with result 6
-Solving subproblem 15,4 with result 17
-Solving subproblem 15,5 with result 17
-Solving subproblem 1,1 with result 0
-Solving subproblem 1,2 with result 0
-Solving subproblem 2,1 with result 0
-Solving subproblem 8,1 with result 6
-Solving subproblem 8,2 with result 6
-Solving subproblem 8,3 with result 6
-Solving subproblem 1,1 with result 0
-Solving subproblem 1,2 with result 0
-Solving subproblem 2,1 with result 0
-Solving subproblem 15,1 with result 6
-Solving subproblem 15,2 with result 6
-Solving subproblem 15,3 with result 6
-Solving subproblem 15,4 with result 17
-Solving subproblem 1,1 with result 0
-Solving subproblem 1,2 with result 0
-Solving subproblem 2,1 with result 0
-Solving subproblem 8,1 with result 6
-Solving subproblem 8,2 with result 6
-Solving subproblem 8,3 with result 6
-Solving subproblem 1,1 with result 0
-Solving subproblem 1,2 with result 0
-Solving subproblem 2,1 with result 0
-Solving subproblem 25,1 with result 6
-Solving subproblem 25,2 with result 6
-Solving subproblem 25,3 with result 6
-Solving subproblem 25,4 with result 17
-Solving subproblem 25,5 with result 18
-Solving subproblem 25,6 with result 27
-Solving subproblem 25,7 with result 28
-Solving subproblem 25,8 with result 37
-Solving subproblem 1,1 with result 0
-Solving subproblem 1,2 with result 0
-Solving subproblem 2,1 with result 0
-Solving subproblem 8,1 with result 6
-Solving subproblem 8,2 with result 6
-Solving subproblem 8,3 with result 6
-Solving subproblem 1,1 with result 0
-Solving subproblem 1,2 with result 0
-Solving subproblem 2,1 with result 0
-Solving subproblem 15,1 with result 6
-Solving subproblem 15,2 with result 6
-Solving subproblem 15,3 with result 6
-Solving subproblem 15,4 with result 17
-Solving subproblem 15,5 with result 17
-Solving subproblem 1,1 with result 0
-Solving subproblem 1,2 with result 0
-Solving subproblem 2,1 with result 0
-Solving subproblem 8,1 with result 6
-Solving subproblem 8,2 with result 6
-Solving subproblem 8,3 with result 6
-Solving subproblem 1,1 with result 0
-Solving subproblem 1,2 with result 0
-Solving subproblem 2,1 with result 0
-Solving subproblem 15,1 with result 6
-Solving subproblem 15,2 with result 6
-Solving subproblem 15,3 with result 6
-Solving subproblem 15,4 with result 17
-Solving subproblem 1,1 with result 0
-Solving subproblem 1,2 with result 0
-Solving subproblem 2,1 with result 0
-Solving subproblem 8,1 with result 6
-Solving subproblem 8,2 with result 6
-Solving subproblem 8,3 with result 6
-Solving subproblem 1,1 with result 0
-Solving subproblem 1,2 with result 0
-Solving subproblem 2,1 with result 0
-Solving subproblem 20,1 with result 6
-Solving subproblem 20,2 with result 6
-Solving subproblem 20,3 with result 6
-Solving subproblem 20,4 with result 17
-Solving subproblem 20,5 with result 18
-Solving subproblem 20,6 with result 27
-Solving subproblem 20,7 with result 27
-Solving subproblem 1,1 with result 0
-Solving subproblem 1,2 with result 0
-Solving subproblem 2,1 with result 0
-Solving subproblem 8,1 with result 6
-Solving subproblem 8,2 with result 6
-Solving subproblem 8,3 with result 6
-Solving subproblem 1,1 with result 0
-Solving subproblem 1,2 with result 0
-Solving subproblem 2,1 with result 0
-Solving subproblem 15,1 with result 6
-Solving subproblem 15,2 with result 6
-Solving subproblem 15,3 with result 6
-Solving subproblem 15,4 with result 17
-Solving subproblem 15,5 with result 17
-Solving subproblem 1,1 with result 0
-Solving subproblem 1,2 with result 0
-Solving subproblem 2,1 with result 0
-Solving subproblem 8,1 with result 6
-Solving subproblem 8,2 with result 6
-Solving subproblem 8,3 with result 6
-Solving subproblem 1,1 with result 0
-Solving subproblem 1,2 with result 0
-Solving subproblem 2,1 with result 0
-Solving subproblem 15,1 with result 6
-Solving subproblem 15,2 with result 6
-Solving subproblem 15,3 with result 6
-Solving subproblem 15,4 with result 17
-Solving subproblem 1,1 with result 0
-Solving subproblem 1,2 with result 0
-Solving subproblem 2,1 with result 0
-Solving subproblem 8,1 with result 6
-Solving subproblem 8,2 with result 6
-Solving subproblem 8,3 with result 6
-Solving subproblem 1,1 with result 0
-Solving subproblem 1,2 with result 0
-Solving subproblem 2,1 with result 0
-Solving subproblem 20,1 with result 6
-Solving subproblem 20,2 with result 6
-Solving subproblem 20,3 with result 6
-Solving subproblem 20,4 with result 17
-Solving subproblem 20,5 with result 18
-Solving subproblem 20,6 with result 27
-Solving subproblem 1,1 with result 0
-Solving subproblem 1,2 with result 0
-Solving subproblem 2,1 with result 0
-Solving subproblem 8,1 with result 6
-Solving subproblem 8,2 with result 6
-Solving subproblem 8,3 with result 6
-Solving subproblem 1,1 with result 0
-Solving subproblem 1,2 with result 0
-Solving subproblem 2,1 with result 0
-Solving subproblem 15,1 with result 6
-Solving subproblem 15,2 with result 6
-Solving subproblem 15,3 with result 6
-Solving subproblem 15,4 with result 17
-Solving subproblem 15,5 with result 17
-Solving subproblem 1,1 with result 0
-Solving subproblem 1,2 with result 0
-Solving subproblem 2,1 with result 0
-Solving subproblem 8,1 with result 6
-Solving subproblem 8,2 with result 6
-Solving subproblem 8,3 with result 6
-Solving subproblem 1,1 with result 0
-Solving subproblem 1,2 with result 0
-Solving subproblem 2,1 with result 0
-Solving subproblem 15,1 with result 6
-Solving subproblem 15,2 with result 6
-Solving subproblem 15,3 with result 6
-Solving subproblem 15,4 with result 17
-Solving subproblem 1,1 with result 0
-Solving subproblem 1,2 with result 0
-Solving subproblem 2,1 with result 0
-Solving subproblem 8,1 with result 6
-Solving subproblem 8,2 with result 6
-Solving subproblem 8,3 with result 6
-Solving subproblem 1,1 with result 0
-Solving subproblem 1,2 with result 0
-Solving subproblem 2,1 with result 0
-Solving subproblem 25,1 with result 6
-Solving subproblem 25,2 with result 6
-Solving subproblem 25,3 with result 6
-Solving subproblem 25,4 with result 17
-Solving subproblem 25,5 with result 18
-Solving subproblem 25,6 with result 27
-Solving subproblem 25,7 with result 28
-Solving subproblem 25,8 with result 37
-Solving subproblem 25,9 with result 37
-the max profit is 52
+substr is p
+substr is pv
+substr is mpv
+substr is mpuv
+substr is mppuv
+substr is mppuvw
+substr is jmppuvw
+substr is jjmppuvw
+substr is jjjmppuvw
+substr is fjjjmppuvw
+substr is v
+substr is mv
+substr is muv
+substr is mpuv
+substr is mpuvw
+substr is jmpuvw
+substr is jjmpuvw
+substr is jjjmpuvw
+substr is fjjjmpuvw
+substr is m
+substr is mu
+substr is mpu
+substr is mpuw
+substr is jmpuw
+substr is jjmpuw
+substr is jjjmpuw
+substr is fjjjmpuw
+substr is u
+substr is pu
+substr is puw
+substr is jpuw
+substr is jjpuw
+substr is jjjpuw
+substr is fjjjpuw
+substr is p
+substr is pw
+substr is jpw
+substr is jjpw
+substr is jjjpw
+substr is fjjjpw
+substr is w
+substr is jw
+substr is jjw
+substr is jjjw
+substr is fjjjw
+substr is j
+substr is jj
+substr is jjj
+substr is fjjj
+substr is j
+substr is jj
+substr is fjj
+substr is j
+substr is fj
+substr is f
+5
