@@ -1,56 +1,234 @@
-substr is p
-substr is pv
-substr is mpv
-substr is mpuv
-substr is mppuv
-substr is mppuvw
-substr is jmppuvw
-substr is jjmppuvw
-substr is jjjmppuvw
-substr is fjjjmppuvw
-substr is v
-substr is mv
-substr is muv
-substr is mpuv
-substr is mpuvw
-substr is jmpuvw
-substr is jjmpuvw
-substr is jjjmpuvw
-substr is fjjjmpuvw
-substr is m
-substr is mu
-substr is mpu
-substr is mpuw
-substr is jmpuw
-substr is jjmpuw
-substr is jjjmpuw
-substr is fjjjmpuw
-substr is u
-substr is pu
-substr is puw
-substr is jpuw
-substr is jjpuw
-substr is jjjpuw
-substr is fjjjpuw
-substr is p
-substr is pw
-substr is jpw
-substr is jjpw
-substr is jjjpw
-substr is fjjjpw
-substr is w
-substr is jw
-substr is jjw
-substr is jjjw
-substr is fjjjw
-substr is j
-substr is jj
-substr is jjj
-substr is fjjj
-substr is j
-substr is jj
-substr is fjj
-substr is j
-substr is fj
-substr is f
-5
+index is 1 and index >= nums.size()-1 0
+index is 2 and index >= nums.size()-1 0
+index is 3 and index >= nums.size()-1 0
+index is 4 and index >= nums.size()-1 0
+index is 5 and index >= nums.size()-1 0
+index is 6 and index >= nums.size()-1 0
+index is 7 and index >= nums.size()-1 0
+index is 8 and index >= nums.size()-1 0
+index is 9 and index >= nums.size()-1 0
+index is 10 and index >= nums.size()-1 0
+index is 11 and index >= nums.size()-1 0
+index is 12 and index >= nums.size()-1 0
+index is 13 and index >= nums.size()-1 0
+index is 14 and index >= nums.size()-1 0
+index is 15 and index >= nums.size()-1 0
+index is 16 and index >= nums.size()-1 0
+index is 17 and index >= nums.size()-1 0
+index is 18 and index >= nums.size()-1 0
+index is 19 and index >= nums.size()-1 0
+index is 20 and index >= nums.size()-1 0
+index is 21 and index >= nums.size()-1 0
+index is 22 and index >= nums.size()-1 0
+index is 23 and index >= nums.size()-1 0
+index is 24 and index >= nums.size()-1 0
+index is 25 and index >= nums.size()-1 0
+index is 26 and index >= nums.size()-1 0
+index is 27 and index >= nums.size()-1 0
+index is 28 and index >= nums.size()-1 0
+index is 29 and index >= nums.size()-1 0
+index is 30 and index >= nums.size()-1 0
+index is 31 and index >= nums.size()-1 0
+index is 32 and index >= nums.size()-1 0
+index is 33 and index >= nums.size()-1 0
+index is 34 and index >= nums.size()-1 0
+index is 35 and index >= nums.size()-1 0
+index is 36 and index >= nums.size()-1 0
+index is 37 and index >= nums.size()-1 0
+index is 38 and index >= nums.size()-1 0
+index is 39 and index >= nums.size()-1 0
+index is 40 and index >= nums.size()-1 0
+index is 41 and index >= nums.size()-1 0
+index is 42 and index >= nums.size()-1 0
+index is 43 and index >= nums.size()-1 0
+index is 44 and index >= nums.size()-1 0
+index is 45 and index >= nums.size()-1 0
+index is 46 and index >= nums.size()-1 0
+index is 47 and index >= nums.size()-1 0
+index is 48 and index >= nums.size()-1 0
+index is 49 and index >= nums.size()-1 0
+index is 50 and index >= nums.size()-1 0
+index is 51 and index >= nums.size()-1 0
+index is 52 and index >= nums.size()-1 0
+index is 53 and index >= nums.size()-1 0
+index is 54 and index >= nums.size()-1 0
+index is 55 and index >= nums.size()-1 0
+index is 56 and index >= nums.size()-1 0
+index is 57 and index >= nums.size()-1 0
+index is 58 and index >= nums.size()-1 0
+index is 59 and index >= nums.size()-1 0
+index is 60 and index >= nums.size()-1 0
+index is 61 and index >= nums.size()-1 0
+index is 62 and index >= nums.size()-1 0
+index is 63 and index >= nums.size()-1 0
+index is 64 and index >= nums.size()-1 0
+index is 65 and index >= nums.size()-1 0
+index is 66 and index >= nums.size()-1 0
+index is 67 and index >= nums.size()-1 0
+index is 68 and index >= nums.size()-1 0
+index is 69 and index >= nums.size()-1 0
+index is 70 and index >= nums.size()-1 0
+index is 71 and index >= nums.size()-1 0
+index is 72 and index >= nums.size()-1 0
+index is 73 and index >= nums.size()-1 0
+index is 74 and index >= nums.size()-1 0
+index is 75 and index >= nums.size()-1 0
+index is 76 and index >= nums.size()-1 0
+index is 77 and index >= nums.size()-1 0
+index is 78 and index >= nums.size()-1 0
+index is 79 and index >= nums.size()-1 0
+index is 80 and index >= nums.size()-1 0
+index is 81 and index >= nums.size()-1 0
+index is 82 and index >= nums.size()-1 0
+index is 83 and index >= nums.size()-1 0
+index is 84 and index >= nums.size()-1 0
+index is 85 and index >= nums.size()-1 0
+index is 86 and index >= nums.size()-1 0
+index is 87 and index >= nums.size()-1 0
+index is 88 and index >= nums.size()-1 0
+index is 89 and index >= nums.size()-1 0
+index is 90 and index >= nums.size()-1 0
+index is 91 and index >= nums.size()-1 0
+index is 92 and index >= nums.size()-1 0
+index is 93 and index >= nums.size()-1 0
+index is 94 and index >= nums.size()-1 0
+index is 95 and index >= nums.size()-1 0
+index is 96 and index >= nums.size()-1 0
+index is 97 and index >= nums.size()-1 0
+index is 98 and index >= nums.size()-1 0
+index is 99 and index >= nums.size()-1 0
+index is 100 and index >= nums.size()-1 0
+index is 101 and index >= nums.size()-1 0
+index is 102 and index >= nums.size()-1 0
+index is 103 and index >= nums.size()-1 0
+index is 104 and index >= nums.size()-1 0
+index is 105 and index >= nums.size()-1 0
+index is 106 and index >= nums.size()-1 0
+index is 107 and index >= nums.size()-1 0
+index is 108 and index >= nums.size()-1 0
+index is 109 and index >= nums.size()-1 0
+index is 110 and index >= nums.size()-1 0
+index is 111 and index >= nums.size()-1 0
+index is 112 and index >= nums.size()-1 0
+index is 113 and index >= nums.size()-1 0
+index is 114 and index >= nums.size()-1 0
+index is 115 and index >= nums.size()-1 0
+index is 116 and index >= nums.size()-1 0
+index is 117 and index >= nums.size()-1 0
+index is 118 and index >= nums.size()-1 0
+index is 119 and index >= nums.size()-1 0
+index is 120 and index >= nums.size()-1 0
+index is 121 and index >= nums.size()-1 0
+index is 122 and index >= nums.size()-1 0
+index is 123 and index >= nums.size()-1 0
+index is 124 and index >= nums.size()-1 0
+index is 125 and index >= nums.size()-1 0
+index is 126 and index >= nums.size()-1 0
+index is 127 and index >= nums.size()-1 0
+index is 128 and index >= nums.size()-1 0
+index is 129 and index >= nums.size()-1 0
+index is 130 and index >= nums.size()-1 0
+index is 131 and index >= nums.size()-1 0
+index is 132 and index >= nums.size()-1 0
+index is 133 and index >= nums.size()-1 0
+index is 134 and index >= nums.size()-1 0
+index is 135 and index >= nums.size()-1 0
+index is 136 and index >= nums.size()-1 0
+index is 137 and index >= nums.size()-1 0
+index is 138 and index >= nums.size()-1 0
+index is 139 and index >= nums.size()-1 0
+index is 140 and index >= nums.size()-1 0
+index is 141 and index >= nums.size()-1 0
+index is 142 and index >= nums.size()-1 0
+index is 143 and index >= nums.size()-1 0
+index is 144 and index >= nums.size()-1 0
+index is 145 and index >= nums.size()-1 0
+index is 146 and index >= nums.size()-1 0
+index is 147 and index >= nums.size()-1 0
+index is 148 and index >= nums.size()-1 0
+index is 149 and index >= nums.size()-1 0
+index is 150 and index >= nums.size()-1 0
+index is 151 and index >= nums.size()-1 0
+index is 152 and index >= nums.size()-1 0
+index is 153 and index >= nums.size()-1 0
+index is 154 and index >= nums.size()-1 0
+index is 155 and index >= nums.size()-1 0
+index is 156 and index >= nums.size()-1 0
+index is 157 and index >= nums.size()-1 0
+index is 158 and index >= nums.size()-1 0
+index is 159 and index >= nums.size()-1 0
+index is 160 and index >= nums.size()-1 0
+index is 161 and index >= nums.size()-1 0
+index is 162 and index >= nums.size()-1 0
+index is 163 and index >= nums.size()-1 0
+index is 164 and index >= nums.size()-1 0
+index is 165 and index >= nums.size()-1 0
+index is 166 and index >= nums.size()-1 0
+index is 167 and index >= nums.size()-1 0
+index is 168 and index >= nums.size()-1 0
+index is 169 and index >= nums.size()-1 0
+index is 170 and index >= nums.size()-1 0
+index is 171 and index >= nums.size()-1 0
+index is 172 and index >= nums.size()-1 0
+index is 173 and index >= nums.size()-1 0
+index is 174 and index >= nums.size()-1 0
+index is 175 and index >= nums.size()-1 0
+index is 176 and index >= nums.size()-1 0
+index is 177 and index >= nums.size()-1 0
+index is 178 and index >= nums.size()-1 0
+index is 179 and index >= nums.size()-1 0
+index is 180 and index >= nums.size()-1 0
+index is 181 and index >= nums.size()-1 0
+index is 182 and index >= nums.size()-1 0
+index is 183 and index >= nums.size()-1 0
+index is 184 and index >= nums.size()-1 0
+index is 185 and index >= nums.size()-1 0
+index is 186 and index >= nums.size()-1 0
+index is 187 and index >= nums.size()-1 0
+index is 188 and index >= nums.size()-1 0
+index is 189 and index >= nums.size()-1 0
+index is 190 and index >= nums.size()-1 0
+index is 191 and index >= nums.size()-1 0
+index is 192 and index >= nums.size()-1 0
+index is 193 and index >= nums.size()-1 0
+index is 194 and index >= nums.size()-1 0
+index is 195 and index >= nums.size()-1 0
+index is 196 and index >= nums.size()-1 0
+index is 197 and index >= nums.size()-1 0
+index is 198 and index >= nums.size()-1 0
+index is 199 and index >= nums.size()-1 0
+index is 200 and index >= nums.size()-1 0
+index is 201 and index >= nums.size()-1 0
+index is 202 and index >= nums.size()-1 0
+index is 203 and index >= nums.size()-1 0
+index is 204 and index >= nums.size()-1 0
+index is 205 and index >= nums.size()-1 0
+index is 206 and index >= nums.size()-1 0
+index is 207 and index >= nums.size()-1 0
+index is 208 and index >= nums.size()-1 0
+index is 209 and index >= nums.size()-1 0
+index is 210 and index >= nums.size()-1 0
+index is 211 and index >= nums.size()-1 0
+index is 212 and index >= nums.size()-1 0
+index is 213 and index >= nums.size()-1 0
+index is 214 and index >= nums.size()-1 0
+index is 215 and index >= nums.size()-1 0
+index is 216 and index >= nums.size()-1 0
+index is 217 and index >= nums.size()-1 0
+index is 218 and index >= nums.size()-1 0
+index is 219 and index >= nums.size()-1 0
+index is 220 and index >= nums.size()-1 0
+index is 221 and index >= nums.size()-1 0
+index is 222 and index >= nums.size()-1 0
+index is 223 and index >= nums.size()-1 0
+index is 224 and index >= nums.size()-1 0
+index is 225 and index >= nums.size()-1 0
+index is 226 and index >= nums.size()-1 0
+index is 227 and index >= nums.size()-1 0
+index is 228 and index >= nums.size()-1 0
+index is 229 and index >= nums.size()-1 0
+index is 230 and index >= nums.size()-1 0
+index is 231 and index >= nums.size()-1 0
+index is 232 and index >= nums.size()-1 0
+index is 233 and index >= nums.size()-1 1
+res is 1

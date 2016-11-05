@@ -1,23 +1,40 @@
 #include "bits/stdc++.h"
+#define For(i,start,end) for(i=start;i<end;i++)
 using namespace std;
-#define REP(i,n) for(int i=0; i<n; i++)
-#define For(i,st,end) for(int i=st;i<end;i++)
-#define db(x) cout << (#x) << " = " << x << endl;
-#define mp make_pair
-#define pb push_back
-typedef long long int ll;
-int main(){
-	
-	int i=1,j=1,k=1;
-	int n,m;
-	cin>>n>>m;
-	int arr[n][m];
-	For(i,0,n)
-	{
-	    For(j,0,m)
-	    arr[i][j]=i*j;
-	}
-	cout<<" res is "<<(i&j&k)<<" \n";
-	return 0;
-    
+
+int findRes(){
+    multiset<int> heap1;
+    int x,i,j,k,n;
+    cin>>n>>k;
+    vector<int> arr;
+    For(i,0,n){
+        cin>>x;
+        arr.push_back(x);
+    }
+    For(i,0,k){
+        heap1.insert(arr[i]);
+    }
+    auto it=heap1.begin();
+    int med1;
+    med1=(k%2==1)?(*(it+(k/2))):((*(it+k/2))+ (*(it+k/2 -1 ))/2);
+    int res=0;
+    For(i,k,n){
+        if(arr[i]>2*med1){
+               res++;
+        }
+        heap1.remove(arr[i-k]);
+        heap.insert(arr[i]);
+        it=heap1.begin();
+        med1=(k%2==1)?(*(it+(k/2))):((*(it+k/2)+*(it+k/2 -1 ))/2);
+    }
+    return res;
 }
+
+int main() {
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */   
+    std::ios::sync_with_stdio(false);
+    int res=findRes();
+    cout<<res<<"\n";
+    return 0;
+}
+
