@@ -1,3 +1,4 @@
+
 //Geek for geeks maximize i*arr[i]
 
 #include "bits/stdc++.h"
@@ -17,15 +18,15 @@ int findRes(int start)
     //cout<<"start is "<<start<<" end1 is "<<end1+1<<"\n";
     if(dp[start]!=-1){ count++;return dp[start]; }
     if(start>=end1 ) return dp[start]=1;
-    
-    
+
+
     res+=findRes(start+1);
     num=(str[start]-'0')*10+str[start+1]-'0';
     if(num>0 and num<27)
     {
         res+=findRes(start+2);
-    } 
-    
+    }
+
     return dp[start]=res;
 }
 

@@ -1,40 +1,42 @@
+#include <cmath>
+#include <cstdio>
+#include <vector>
+#include <iostream>
+#include <algorithm>
 #include "bits/stdc++.h"
-#define For(i,start,end) for(i=start;i<end;i++)
 using namespace std;
 
-int findRes(){
-    multiset<int> heap1;
-    int x,i,j,k,n;
-    cin>>n>>k;
-    vector<int> arr;
-    For(i,0,n){
-        cin>>x;
-        arr.push_back(x);
-    }
-    For(i,0,k){
-        heap1.insert(arr[i]);
-    }
-    auto it=heap1.begin();
-    int med1;
-    med1=(k%2==1)?(*(it+(k/2))):((*(it+k/2))+ (*(it+k/2 -1 ))/2);
-    int res=0;
-    For(i,k,n){
-        if(arr[i]>2*med1){
-               res++;
+class Solution {
+    void reverse(int i,int j,string &s){
+        char ch;
+        while(i<j){
+            ch=s[i];s[i]=s[j];s[j]=ch;
+            i++;j--;
         }
-        heap1.remove(arr[i-k]);
-        heap.insert(arr[i]);
-        it=heap1.begin();
-        med1=(k%2==1)?(*(it+(k/2))):((*(it+k/2)+*(it+k/2 -1 ))/2);
-    }
-    return res;
-}
 
+    }
+public:
+    void reverseWords(string &s) {
+        int i=0,j,n=s.length();
+        j=n-1;
+        char ch;
+        reverse(0,n-1,s);
+        i=0;
+        while(i<n){
+            while(s[i]==' ')i++;
+            j=i;
+            while(s[j]!=' ')j++;
+            j--;
+            reverse(i,j,s);
+            i=j+1;
+        }
+    }
+};
 int main() {
-    /* Enter your code here. Read input from STDIN. Print output to STDOUT */   
-    std::ios::sync_with_stdio(false);
-    int res=findRes();
-    cout<<res<<"\n";
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */
+    string str="the sky is blue";
+    Solution ob1;
+    ob1.reverseWords(str);
+    cout<<"str is "<<str<<"\n";
     return 0;
 }
-
